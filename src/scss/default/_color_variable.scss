@@ -9,3 +9,61 @@ $ternary: #999696;
 $border: #4D4D4D;
 $gray: #181818;
 $accent: #FF4A17;
+
+
+
+
+
+.images-box {
+	display: inline-block;
+	position: relative;
+}
+
+.images-box-item {
+	display: inline-block;
+}
+
+.images-box-item img {
+	box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.images-box-item-left {
+	position: absolute;
+	left: 0;
+	right: 35%;
+	bottom: -20px;
+	border-top: 20px solid #ffffff;
+	border-bottom: 20px solid #ffffff;
+	border-right: 20px solid #ffffff;
+}
+
+@media (min-width: 768px) {
+	.images-box {
+		text-align: right;
+	}
+	.images-box-item-left {
+		position: absolute;
+		left: -90px;
+		right: auto;
+		bottom: -30px;
+		border-width: 30px;
+	}
+}
+
+@media (min-width: 992px) {
+	.images-box {
+		padding-left: 15px;
+	}
+	.images-box-item-left {
+		left: -20px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.images-box {
+		padding-left: 0;
+	}
+	.images-box-item-left {
+		left: -120px;
+	}
+}

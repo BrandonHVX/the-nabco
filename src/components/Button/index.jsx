@@ -10,7 +10,6 @@ export default function Button({ btnLink, btnText, variant, icon }) {
     >
       <>
         <span>{btnText}</span>
-        {icon ? icon : <Icon icon="bi:arrow-right" />}
       </>
     </Link>
   );

@@ -47,7 +47,7 @@ export default function TeamSlider() {
       },
     },
     {
-      memberImage: Speaker1,
+      memberImage: Speaker14,
       memberName: 'David Elone',
       memberDesignation: 'React Developer',
       memberSocial: {
@@ -58,7 +58,7 @@ export default function TeamSlider() {
       },
     },
     {
-      memberImage: Speaker12,
+      memberImage: Speaker13,
       memberName: 'Melina Opole',
       memberDesignation: 'WP Developer',
       memberSocial: {
@@ -69,7 +69,18 @@ export default function TeamSlider() {
       },
     },
     {
-      memberImage: '/images/member_1.jpeg',
+      memberImage: Speaker5,
+      memberName: 'Melon Bulgery',
+      memberDesignation: 'Product Designer',
+      memberSocial: {
+        linkedin: '/',
+        twitter: '/',
+        youtube: '/',
+        facebook: '/',
+      },
+    },
+    {
+      memberImage: Speaker3,
       memberName: 'Melon Bulgery',
       memberDesignation: 'Product Designer',
       memberSocial: {

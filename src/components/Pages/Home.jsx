@@ -3,6 +3,7 @@ import Card from '../Card';
 import FunFact from '../FunFact';
 import Hero from '../Hero';
 import Div from '../Div';
+import Button from "../Button";
 import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
 import Cta from '../Cta';
@@ -16,8 +17,20 @@ import VideoModal from '../VideoModal';
 import TimelineSlider from '../Slider/TimelineSlider';
 import { pageTitle } from '../../helper';
 import NabcoBG from "../../scss/images/nabco-bg.jpg"
+import NabcoAbout1 from "../../scss/images/home-1-01-470x590.jpg"
+import NabcoAbout2 from "../../scss/images/home-1-02-270x257.jpg"
 
-export default function Home() {
+
+export default function Home({
+  title,
+  subtitle,
+  btnText,
+  btnLink,
+  scrollDownId,
+  socialLinksHeading,
+ 
+  bgImageUrl,
+}) {
   pageTitle('Home');
 
   // Hero Social Links
@@ -82,9 +95,14 @@ export default function Home() {
             <SectionHeading
               title="National Association of Black County Officials"
               subtitle="About Us"
+              btnLink='/about'
+              btnText="Read More"
             >
+
               <Spacing lg="30" md="20" />
-              <p className="cs-m0 text-black">
+              <Div className="cs-separator cs-accent_bg"></Div>
+
+              <p className="cs-m0 text-black pt-4">
            
             Since its founding in 1975, the National Association of Black County Officials NABCO has provided a forum
               for networking, information and resource sharing, and issue advocacy on behalf of African-American elected
@@ -92,17 +110,21 @@ export default function Home() {
               counties, boroughs, and parishes, and represent some of the most diverse populations in America’s rural
               communities and urban centers
               </p>
-              <Spacing lg="30" md="30" />
-              <Div className="cs-separator cs-accent_bg"></Div>
-              <Spacing lg="25" md="40" />
+
+           
             </SectionHeading>
           </Div>
           <Div className="col-lg-5 offset-xl-2">
-            <img
-              src="/images/about_img_1.jpeg"
-              alt="About"
-              className="w-100 cs-radius_15"
-            />
+          <div class="images-box">
+              <div class="images-box-item images-box-item-right">
+                <div class="wow fadeScale"><img src={NabcoAbout1} alt="" width="470" height="590" />
+                </div>
+              </div>
+              <div class="images-box-item images-box-item-left">
+                <div class="wow fadeScale"><img src={NabcoAbout2}  alt="" width="270" height="257" />
+                </div>
+              </div>
+            </div>
            
           </Div>
         </Div>
