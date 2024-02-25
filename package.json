@@ -1,5 +1,5 @@
 {
-  "name": "arino-react",
+  "name": "Crypto Jab",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,6 +17,7 @@
     "react-scripts": "^5.0.1",
     "react-slick": "^0.29.0",
     "react-water-wave": "^2.0.1",
+    "sass": "^1.70.0",
     "slick-carousel": "^1.8.1",
     "swiper": "^8.4.5",
     "web-vitals": "^2.1.4"
@@ -46,7 +47,6 @@
     ]
   },
   "devDependencies": {
-    "@iconify/react": "^4.0.0",
-    "node-sass": "^9.0.0"
+    "@iconify/react": "^4.0.0"
   }
 }
