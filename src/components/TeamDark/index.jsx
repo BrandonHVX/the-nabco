@@ -12,9 +12,10 @@ export default function Team({memberImage, memberName, memberDesignation, member
     <Div className="cs-team cs-style1 ">
         <Div className="cs-member_thumb">
           <img src={memberImage} alt={memberName} width="100px" />
+      
         </Div>
-        <Div className="cs-member_info">
-          <h2 className="cs-member_name">{memberName}</h2>
+        <Div className="cs-member_info text-black">
+          <h2 className="cs-member_name text-black">{memberName}</h2>
           <Div className="cs-member_designation">{memberDesignation}</Div>
         </Div>
         <Div className="cs-member_social cs-primary_color">

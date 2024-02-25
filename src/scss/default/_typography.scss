@@ -59,11 +59,28 @@ h6 {
 
 }
 
+.h1-nabco-gray,
+.h2-nabco-gray,
+.h3-nabco-gray,
+.h4-nabco-gray,
+.h5-nabco-gray,
+.h6-nabco-gray {
+  clear: both;
+ text-transform: uppercase;
+
+  color: $gray;
+  font-family: "Barlow Condensed", sans-serif;
+
+  font-weight: 600;
+
+
+}
+
 
 .h1-nabco-title{
   clear: both;
  text-transform: uppercase;
-font-size: 90px;  
+font-size: 120px;  
   font-family: "Barlow Condensed", sans-serif;
 
   font-weight: 600;
@@ -73,17 +90,9 @@ font-size: 90px;
 
 
 
-// @media screen  and (max-width: 300px) {
-
-// .h1-nabco-title{
-//   clear: both;
-//   text-transform: uppercase; 
-//   font-family: "Barlow Condensed", sans-serif;
-//   font-weight: 600;
-
-// }
-  
-// }
+.text-gray{
+  color: $gray;
+}
 
 .h4-nabco {
   clear: both;

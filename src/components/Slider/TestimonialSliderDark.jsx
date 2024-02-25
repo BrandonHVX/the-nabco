@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react';
 import Testimonial from '../Testimonial';
 import Div from '../Div';
 import Spacing from '../Spacing';
-import TeamSlider from './TeamSlider';
+import TeamSliderDark from './TeamSliderDark';
 import SectionHeading from '../SectionHeading';
 import Sponsors from '../../scss/images/sponsors-white.png'
 import Timer from "../Widget/Timer"
@@ -30,19 +30,19 @@ export default function TestimonialSlider( title,
         <Div className="container text-center">
       
 
-                <Spacing lg="20" md="20" />
 
-        <Spacing lg="85" md="45" />
-        <h4 class="h4-nabco text-spacing-200  wow fadeScale" data-caption-animate="fadeInUp" data-caption-delay="100"
+
+      
+        <h4 class="h4-nabco-gray text-spacing-200  wow fadeScale text-gray" data-caption-animate="fadeInUp" data-caption-delay="100"
                 data-caption-duration="900">Who's Speaking</h4>
-              <h2 class="h2-nabco  wow fadeInUp " data-wow-delay=".8s" data-caption-animate="fadeInUp"
+              <h2 class="h2-nabco-gray  wow fadeInUp " data-wow-delay=".8s" data-caption-animate="fadeInUp"
                 data-caption-delay="300" data-caption-duration="900"> Featured Guest Speakers
                 </h2>
         
-        <TeamSlider />
+        <TeamSliderDark />
 
 
-        <Button btnLink='/nabco2024' btnText="Read More" />
+        <p className='h4-nabco-gray'>More Speakers to be Anounced</p>
 
       </Div>
  

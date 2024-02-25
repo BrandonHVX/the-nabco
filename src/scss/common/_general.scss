@@ -187,6 +187,11 @@ hr {
   background-color: $gray;
 }
 
+.cs-light_gray_bg {
+  background-color: $light-gray;
+}
+
+
 .cs-accent_bg_1,
 .cs-accent_bg_1_hover:hover {
   background-color: rgba($accent, 0.01);
@@ -1072,6 +1077,16 @@ label {
   }
 }
 
+@media screen and (min-width: 991px) {
+  .cs-page_heading {
+    height: 1200px;
+  }
+
+}
+
+
+
+
 .cs-page_heading.cs-style1 {
   height: 650px;
   padding: 120px 0 50px;
@@ -1545,7 +1560,15 @@ label {
   }
   .cs-page_heading.cs-style1 {
     padding: 100px 0 50px;
-    height: 400px;
+    height: 300px;
+    .cs-page_title {
+      margin-bottom: 15px;
+    }
+  }
+
+  .cs-nabco-page_heading.cs-style1 {
+    padding: 100px 0 50px;
+    height: 800px;
     .cs-page_title {
       margin-bottom: 15px;
     }

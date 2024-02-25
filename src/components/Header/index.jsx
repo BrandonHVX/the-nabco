@@ -59,7 +59,7 @@ export default function Header({ variant }) {
                     </li>
                     <li className="menu-item-has-children">
                       <NavLink
-                        to="service"
+                        to="nabco2024"
                         onClick={() => setMobileToggle(false)}
                       >
                        NABCO 2024
@@ -68,7 +68,7 @@ export default function Header({ variant }) {
                     </li>
                     <li className="menu-item-has-children">
                       <NavLink
-                        to="service"
+                        to="contact"
                         onClick={() => setMobileToggle(false)}
                       >
                        Contact

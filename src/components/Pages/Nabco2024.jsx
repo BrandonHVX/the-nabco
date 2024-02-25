@@ -9,7 +9,7 @@ import TeamSlider from '../Slider/TeamSlider';
 import Spacing from '../Spacing';
 import LogoBlack from "../../scss/images/logo-black.png"
 import NabcoBG from "../../scss/images/nabco-bg.jpg"
-import TestimonialSlider from "../Slider/TestimonialSlider"
+import TestimonialSliderDark from "../Slider/TestimonialSliderDark"
 import Timer from "../Widget/Timer";
 import NabcoHotel1 from "../../scss/images/home-2-01-470x590.jpg"
 import NabcoHotel2  from "../../scss/images/home-2-02-270x257.jpg"
@@ -53,9 +53,9 @@ export default function AboutPage() {
 
       {/* Start About Section */}
      
-     
+     <Div className="cs-light_gray_bg "> <TestimonialSliderDark /></Div>
        
-      <TestimonialSlider />
+     
 
 
    

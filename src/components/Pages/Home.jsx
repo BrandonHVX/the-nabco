@@ -19,7 +19,10 @@ import { pageTitle } from '../../helper';
 import NabcoBG from "../../scss/images/nabco-bg.jpg"
 import NabcoAbout1 from "../../scss/images/home-1-01-470x590.jpg"
 import NabcoAbout2 from "../../scss/images/home-1-02-270x257.jpg"
-
+import Timer from "../Widget/Timer";
+import NabcoHotel1 from "../../scss/images/home-2-01-470x590.jpg"
+import NabcoHotel2  from "../../scss/images/home-2-02-270x257.jpg"
+import Sponsors from '../../scss/images/sponsors-black.png'
 
 export default function Home({
   title,
@@ -174,7 +177,23 @@ export default function Home({
       {/* End Team Section */}
 
       {/* Start Testimonial Section */}
+      <Div className="cs-gradient_bg_1">
+      <Div className="container text-center mt-5">
+        <h1 class="h1-nabco-title wow fadeScale " data-caption-animate="fadeInUp" data-caption-delay="100"
+                data-caption-duration="900">NABCO 2024</h1>
+              <h4 class="h4-nabco text-spacing-200 text-black wow fadeInUp " data-wow-delay=".8s" data-caption-animate="fadeInUp"
+                data-caption-delay="300" data-caption-duration="900"> Leadership Summit & Retreat
+                </h4>
+                <img class="img-opacity" width="400" src={Sponsors} />
+
+ 
+
+                <Timer />
+        
+    
+      </Div>
       <TestimonialSlider />
+      </Div>
       {/* End Testimonial Section */}
 
       {/* Start Blog Section */}
