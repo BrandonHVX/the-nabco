@@ -1,6 +1,6 @@
 // Google Fonts
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 body,
 html {
   color: $secondary;
@@ -9,7 +9,7 @@ html {
   font-weight: 400;
   line-height: 1.6em;
   overflow-x: hidden;
-  background-color: $gray;
+  background-color: $white;
 }
 
 h1,
@@ -20,12 +20,66 @@ h5,
 h6 {
   clear: both;
   color: $primary;
-  padding: 0;
-  margin: 0 0 20px 0;
+
+  line-height: 0.92857;
   font-weight: 600;
-  line-height: 1.3em;
+
   font-family: 'Poppins', sans-serif;
 }
+
+
+.h1-gray,
+.h2-gray,
+.h3-gray,
+.h4-gray,
+.h5-gray,
+.h6-gray {
+  clear: both;
+  color: $gray;
+  padding: 0;
+
+  font-weight: 600;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.h1-nabco,
+.h2-nabco,
+.h3-nabco,
+
+.h5-nabco,
+.h6-nabco {
+  clear: both;
+ text-transform: uppercase;
+  font-size: 120px;
+  color: $white;
+  font-family: "Barlow Condensed", sans-serif;
+
+  font-weight: 600;
+
+
+}
+
+.h4-nabco {
+  clear: both;
+  text-transform: uppercase;
+  color: $white;
+  font-family: "Barlow Condensed", sans-serif;
+
+  font-weight: 600;
+
+
+}
+
+
+.text-spacing-200 {
+  letter-spacing: .2em;
+}
+
+
+
+
+
 
 .cs-primary_font {
   font-family: 'Poppins', sans-serif;

@@ -6,6 +6,7 @@ import './header.scss';
 import ContactInfoWidget from '../Widget/ContactInfoWidget';
 import Div from '../Div';
 import DropDown from './DropDown';
+import Logo from "../../scss/images/logo.png"
 
 export default function Header({ variant }) {
   const [isSticky, setIsSticky] = useState(false);
@@ -33,7 +34,7 @@ export default function Header({ variant }) {
             <Div className="cs-main_header_in">
               <Div className="cs-main_header_left">
                 <Link className="cs-site_branding" to="/">
-                  <img src="/images/logo.svg" alt="Logo" />
+                  <img src={Logo} alt="Logo" />
                 </Link>
               </Div>
               <Div className="cs-main_header_center">

@@ -3,12 +3,29 @@ import React from 'react';
 import Slider from 'react-slick';
 import Div from '../Div';
 import Team from '../Team';
+import Speaker1 from "../../scss/images/speaker-01-330x354.jpg"
+import Speaker2 from "../../scss/images/speaker-02-330x354.jpg"
+import Speaker3 from "../../scss/images/speaker-03-330x354.jpg"
+import Speaker4 from "../../scss/images/speaker-04-330x354.jpg"
+import Speaker5 from "../../scss/images/speaker-05-330x354.jpg"
+import Speaker6 from "../../scss/images/speaker-06-330x354.jpg"
+import Speaker7 from "../../scss/images/speaker-07-330x354.jpg"
+import Speaker8 from "../../scss/images/speaker-08-330x354.jpg"
+import Speaker9 from "../../scss/images/speaker-09-330x354.jpg"
+import Speaker10 from "../../scss/images/speaker-10-330x354.jpg"
+import Speaker11 from "../../scss/images/speaker-11-330x354.jpg"
+import Speaker12 from "../../scss/images/speaker-12-330x354.jpg"
+import Speaker13 from "../../scss/images/speaker-13-330x354.jpg"
+import Speaker14 from "../../scss/images/speaker-14-330x354.jpg"
+
+
+
 
 export default function TeamSlider() {
   /** Team Member Data **/
   const teamData = [
     {
-      memberImage: '/images/member_1.jpeg',
+      memberImage: Speaker12,
       memberName: 'Melon Bulgery',
       memberDesignation: 'Product Designer',
       memberSocial: {
@@ -19,7 +36,7 @@ export default function TeamSlider() {
       },
     },
     {
-      memberImage: '/images/member_2.jpeg',
+      memberImage: Speaker1,
       memberName: 'Olinaz Fushi',
       memberDesignation: 'Product Designer',
       memberSocial: {
@@ -30,7 +47,7 @@ export default function TeamSlider() {
       },
     },
     {
-      memberImage: '/images/member_3.jpeg',
+      memberImage: Speaker1,
       memberName: 'David Elone',
       memberDesignation: 'React Developer',
       memberSocial: {
@@ -41,7 +58,7 @@ export default function TeamSlider() {
       },
     },
     {
-      memberImage: '/images/member_4.jpeg',
+      memberImage: Speaker12,
       memberName: 'Melina Opole',
       memberDesignation: 'WP Developer',
       memberSocial: {
@@ -93,7 +110,7 @@ export default function TeamSlider() {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
     prevArrow: <SlickArrowLeft />,
     nextArrow: <SlickArrowRight />,
@@ -124,9 +141,9 @@ export default function TeamSlider() {
   };
 
   return (
-    <Slider {...settings} className="cs-gap-24 cs-arrow_style2">
+    <Div {...settings} className="cs-gap-24 cs-arrow_style2">
       {teamData.map((item, index) => (
-        <Div key={index}>
+        <Div >
           <Team
             memberImage={item.memberImage}
             memberName={item.memberName}
@@ -135,6 +152,6 @@ export default function TeamSlider() {
           />
         </Div>
       ))}
-    </Slider>
+    </Div>
   );
 }

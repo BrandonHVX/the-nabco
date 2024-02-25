@@ -6,9 +6,12 @@ import Div from '../Div';
 
 export default function Team({memberImage, memberName, memberDesignation, memberSocial}) {
   return (
-    <Div className="cs-team cs-style1">
+
+
+   
+    <Div className="cs-team cs-style1 ">
         <Div className="cs-member_thumb">
-          <img src={memberImage} alt={memberName} />
+          <img src={memberImage} alt={memberName} width="100px" />
           <Div className="cs-member_overlay" />
         </Div>
         <Div className="cs-member_info">

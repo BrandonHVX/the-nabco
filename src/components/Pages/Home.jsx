@@ -15,6 +15,7 @@ import TeamSlider from '../Slider/TeamSlider';
 import VideoModal from '../VideoModal';
 import TimelineSlider from '../Slider/TimelineSlider';
 import { pageTitle } from '../../helper';
+import NabcoBG from "../../scss/images/nabco-bg.jpg"
 
 export default function Home() {
   pageTitle('Home');
@@ -59,93 +60,56 @@ export default function Home() {
     <>
       {/* Start Hero Section */}
       <Hero
-        title="Creativity In <br/>Our Blood Line"
-        subtitle="We deliver best problem solving solution for our client and provide finest finishing product in present and upcoming future."
+        title="ADVOCACY ON BEHALF OF AFRICAN-AMERICAN
+        ELECTED AND APPOINTED COUNTY OFFICIALS"
+        subtitle="The founding members of NABCO believed it was imperative for African-Americans to have a specific and definable voice at the table where decisions were being made that would ultimately impact their constituents and underserved populations."
         btnText="Get a Quote"
         btnLink="/contact"
         scrollDownId="#service"
         socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
-        bgImageUrl="/images/hero_bg.jpeg"
+        bgImageUrl= {NabcoBG}
       />
       {/* End Hero Section */}
 
       {/* Start FunFact Section */}
-      <div className="container">
-        <FunFact
-          variant="cs-type1"
-          title="Our fun fact"
-          subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
-          data={funfaceData}
-        />
-      </div>
-      {/* End FunFact Section */}
 
-      {/* Start Service Section */}
+      {/* End FunFact Section */}
       <Spacing lg="150" md="80" />
-      <Div id="service">
-        <Div className="container">
-          <Div className="row">
-            <Div className="col-xl-4">
-              <SectionHeading
-                title="Services we can help you with"
-                subtitle="What Can We Do"
-                btnText="See All Services"
-                btnLink="/service"
-              />
-              <Spacing lg="90" md="45" />
-            </Div>
-            <Div className="col-xl-8">
-              <Div className="row">
-                <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                <Div className="col-lg-3 col-sm-6">
-                  <Card
-                    title="UI/UX design"
-                    link="/service/service-details"
-                    src="/images/service_1.jpeg"
-                    alt="Service"
-                  />
-                  <Spacing lg="0" md="30" />
-                </Div>
-                <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                <Div className="col-lg-3 col-sm-6">
-                  <Card
-                    title="React.js Development"
-                    link="/service/service-details"
-                    src="/images/service_2.jpeg"
-                    alt="Service"
-                  />
-                  <Spacing lg="0" md="30" />
-                </Div>
-                <Div className="col-lg-3 col-sm-6">
-                  <Card
-                    title="Digital Marketing"
-                    link="/service/service-details"
-                    src="/images/service_3.jpeg"
-                    alt="Service"
-                  />
-                  <Spacing lg="0" md="30" />
-                </Div>
-                <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-                <Div className="col-lg-3 col-sm-6">
-                  <Card
-                    title="Technology"
-                    link="/service/service-details"
-                    src="/images/service_4.jpeg"
-                    alt="Service"
-                  />
-                  <Spacing lg="0" md="30" />
-                </Div>
-                <Div className="col-lg-3 col-sm-6 cs-hidden_mobile"></Div>
-              </Div>
-            </Div>
+      <Div className="container">
+        <Div className="row">
+          <Div className="col-xl-5 col-lg-7">
+            <SectionHeading
+              title="National Association of Black County Officials"
+              subtitle="About Us"
+            >
+              <Spacing lg="30" md="20" />
+              <p className="cs-m0 text-black">
+           
+            Since its founding in 1975, the National Association of Black County Officials NABCO has provided a forum
+              for networking, information and resource sharing, and issue advocacy on behalf of African-American elected
+              and appointed county officials. NABCO members serve in major policy roles throughout America’s 3,069
+              counties, boroughs, and parishes, and represent some of the most diverse populations in America’s rural
+              communities and urban centers
+              </p>
+              <Spacing lg="30" md="30" />
+              <Div className="cs-separator cs-accent_bg"></Div>
+              <Spacing lg="25" md="40" />
+            </SectionHeading>
+          </Div>
+          <Div className="col-lg-5 offset-xl-2">
+            <img
+              src="/images/about_img_1.jpeg"
+              alt="About"
+              className="w-100 cs-radius_15"
+            />
+           
           </Div>
         </Div>
       </Div>
-      {/* End Service Section */}
-
+  
       {/* Start Portfolio Section */}
-      <Spacing lg="150" md="50" />
+      <Spacing lg="100" md="50" />
       <Div>
         <Div className="container">
           <SectionHeading
@@ -158,56 +122,31 @@ export default function Home() {
         <PortfolioSlider />
       </Div>
       {/* End Portfolio Section */}
+      {/* Start Service Section */}
+      <Spacing lg="170" md="80" />
 
-      {/* Start Awards Section */}
-      <Spacing lg="150" md="80" />
-      <Div className="cs-shape_wrap_2">
-        <Div className="cs-shape_2">
-          <Div />
-        </Div>
-        <Div className="container">
-          <Div className="row">
-            <Div className="col-xl-4">
-              <SectionHeading
-                title="We get multiple awards"
-                subtitle="Our Awards"
-                variant="cs-style1"
-              />
-              <Spacing lg="90" md="45" />
-            </Div>
-            <Div className="col-xl-7 offset-xl-1">
-              <TimelineSlider />
-            </Div>
-          </Div>
-        </Div>
-      </Div>
-      {/* End Awards Section */}
-
-      {/* Start Video Block Section */}
-      <Spacing lg="130" md="70" />
-      <Div className="container">
-        <h2 className="cs-font_50 cs-m0 text-center cs-line_height_4">
-          Our agile process is ability to adapt and respond to change. Agile
-          organizations view change as an opportunity, not a threat.
-        </h2>
-        <Spacing lg="70" md="70" />
-        <VideoModal
-          videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
-          bgUrl="/images/video_bg.jpeg"
+      <div className="container">
+        <FunFact
+          variant="cs-type1"
+          title="Our fun fact"
+          subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+          data={funfaceData}
         />
-      </Div>
-      {/* End Video Block Section */}
+      </div>
+   
+
+  
 
       {/* Start Team Section */}
       <Spacing lg="145" md="80" />
       <Div className="container">
-        <SectionHeading
-          title="Awesome team <br/>members"
-          subtitle="Our Team"
-          variant="cs-style1"
-        />
+      
+
+
+      
         <Spacing lg="85" md="45" />
-        <TeamSlider />
+   
+      
       </Div>
       <Spacing lg="150" md="80" />
       {/* End Team Section */}

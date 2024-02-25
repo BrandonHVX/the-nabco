@@ -75,7 +75,7 @@
   height: calc(100vh + 180px);
   min-height: 1000px;
   .cs-hero_title {
-    font-size: 120px;
+    font-size: 80px;
     font-weight: 700;
     margin-bottom: 60px;
     line-height: 1.25em;
@@ -229,7 +229,7 @@
   position: relative;
   overflow: hidden;
   .cs-hero_title {
-    font-size: 100px;
+    font-size: 80px;
     font-weight: 700;
     margin-bottom: 60px;
     line-height: 1.6em;
@@ -298,7 +298,7 @@
   .cs-hero_title {
     margin: 0;
     font-weight: 700;
-    font-size: 100px;
+    font-size: 80px;
     position: relative;
     text-decoration: underline;
     text-decoration-color: $accent;
@@ -427,7 +427,7 @@
   }
   .cs-hero.cs-style3 {
     .cs-hero_title {
-      font-size: 90px;
+      font-size: 80px;
       line-height: 1.4em;
     }
   }
@@ -436,7 +436,7 @@
   }
   .cs-hero.cs-style1.cs-type2 {
     .cs-hero_title {
-      font-size: 100px;
+      font-size: 80px;
     }
   }
 }
@@ -448,7 +448,7 @@
     padding-top: 200px;
     min-height: 880px;
     .cs-hero_title {
-      font-size: 100px;
+      font-size: 80px;
     }
   }
   .cs-hero.cs-style3 {
@@ -497,7 +497,7 @@
   .cs-hero.cs-style1 {
     min-height: 850px;
     .cs-hero_title {
-      font-size: 80px;
+      font-size: 60px;
     }
     .cs-hero_subtitle {
       font-size: 16px;
@@ -568,7 +568,7 @@
   .cs-hero.cs-style5 {
     padding: 80px 15px 80px 150px;
     .cs-hero_title {
-      font-size: 60px;
+      font-size: 40px;
       margin: 0 0 45px 0;
     }
     .cs-btn.cs-style1.cs-type1 {
@@ -606,7 +606,7 @@
       align-items: flex-start;
     }
     .cs-hero_title {
-      font-size: 56px;
+      font-size: 40px;
       margin-bottom: 20px;
     }
     .cs-hero_subtitle {
@@ -642,7 +642,7 @@
   }
   .cs-hero.cs-style1.cs-type2 {
     .cs-hero_title {
-      font-size: 50px;
+      font-size: 40px;
     }
   }
   .cs-hero.cs-style5 {
@@ -652,7 +652,7 @@
 @media screen and (max-width: 575px) {
   .cs-hero.cs-style1 {
     .cs-hero_title {
-      font-size: 42px;
+      font-size: 22px;
       br {
         display: none;
       }

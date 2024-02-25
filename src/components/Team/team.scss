@@ -1,6 +1,8 @@
 @import "../../scss/default/color_variable";
 .cs-team.cs-style1 {
   overflow: hidden;
+  width: 300px;
+  padding: 20px;
   position: relative;
   .cs-member_thumb {
     border-radius: 15px;
@@ -9,7 +11,7 @@
     overflow: hidden;
     img {
       width: 100%;
-      position: relative;
+    
       z-index: 1;
       border-radius: inherit;
       transition: all 0.8s ease;
@@ -35,7 +37,7 @@
     margin-bottom: 6px;
   }
   .cs-member_info {
-    position: absolute;
+  text-align: center;
     left: 0;
     bottom: 0;
     width: 100%;

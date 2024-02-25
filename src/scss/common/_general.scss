@@ -304,9 +304,13 @@ hr {
 
 .cs-text_btn {
   display: inline-flex;
+
+  border: 2px solid $gray;
+  border-radius: 20px ;
+  padding: 10px;
   align-items: center;
   font-weight: 600;
-  color: $white;
+  color: $gray;
   cursor: pointer;
   svg {
     margin-left: 15px;
