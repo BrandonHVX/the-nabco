@@ -125,19 +125,23 @@
 
 .cs-m0 {
   margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+
 }
 
 hr {
   margin: 0;
   padding: 0;
   border: none;
-  border-top: 1px solid #f2f1ff;
+  border-top: 1px solid $gray
 }
 
 .cs-bg {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #181818;
 }
 
 .cs-vertical_middle {
@@ -304,8 +308,8 @@ hr {
 
 .cs-text_btn {
   display: inline-flex;
-
-  border: 2px solid $gray;
+  background-image: -webkit-linear-gradient(left, #ffae00 0%, #d69a01 100%);
+	background-image: linear-gradient(to right,  #ffae00 0%, #d69a01 100%);
   border-radius: 20px ;
   padding: 10px 30px 15px 30px;
   align-items: center;

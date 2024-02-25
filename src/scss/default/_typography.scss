@@ -63,13 +63,27 @@ h6 {
 .h1-nabco-title{
   clear: both;
  text-transform: uppercase;
-font-size: 120px;  
+font-size: 90px;  
   font-family: "Barlow Condensed", sans-serif;
 
   font-weight: 600;
 
 
 }
+
+
+
+// @media screen  and (max-width: 300px) {
+
+// .h1-nabco-title{
+//   clear: both;
+//   text-transform: uppercase; 
+//   font-family: "Barlow Condensed", sans-serif;
+//   font-weight: 600;
+
+// }
+  
+// }
 
 .h4-nabco {
   clear: both;
@@ -177,7 +191,7 @@ button {
 
 a:hover {
   text-decoration: none;
-  color: $accent;
+  color: $white;
 }
 
 table {
@@ -237,3 +251,6 @@ kbd {
 input, textarea {
   color: $primary;
 }
+
+
+

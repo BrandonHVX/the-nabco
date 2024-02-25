@@ -90,7 +90,7 @@ export default function Home({
       {/* End FunFact Section */}
       <Spacing lg="150" md="80" />
       <Div className="container">
-        <Div className="row">
+        <Div className="row justify-content-center">
           <Div className="col-xl-5 col-lg-7">
             <SectionHeading
               title="National Association of Black County Officials"

@@ -26,8 +26,8 @@ export default function TeamSlider() {
   const teamData = [
     {
       memberImage: Speaker12,
-      memberName: 'Melon Bulgery',
-      memberDesignation: 'Product Designer',
+      memberName: 'CONGRESSWOMEN FREDERICA S. WILSON',
+      memberDesignation: 'US Congress, Florida District 24',
       memberSocial: {
         linkedin: '/',
         twitter: '/',
@@ -37,8 +37,8 @@ export default function TeamSlider() {
     },
     {
       memberImage: Speaker1,
-      memberName: 'Olinaz Fushi',
-      memberDesignation: 'Product Designer',
+      memberName: 'BILL DIGGS',
+      memberDesignation: 'Director, Miami Dade Economic Advocacy Trust',
       memberSocial: {
         linkedin: '/',
         twitter: '/',
@@ -48,8 +48,8 @@ export default function TeamSlider() {
     },
     {
       memberImage: Speaker14,
-      memberName: 'David Elone',
-      memberDesignation: 'React Developer',
+      memberName: 'DESMOND MEADE',
+      memberDesignation: 'Executive Director, Florida Rights Restoration Coalition',
       memberSocial: {
         linkedin: '/',
         twitter: '/',
@@ -59,8 +59,8 @@ export default function TeamSlider() {
     },
     {
       memberImage: Speaker13,
-      memberName: 'Melina Opole',
-      memberDesignation: 'WP Developer',
+      memberName: 'MARY ESTIMÉ-IRVIN',
+      memberDesignation: 'Vice Mayor, North Miami District 3',
       memberSocial: {
         linkedin: '/',
         twitter: '/',
@@ -70,8 +70,8 @@ export default function TeamSlider() {
     },
     {
       memberImage: Speaker5,
-      memberName: 'Melon Bulgery',
-      memberDesignation: 'Product Designer',
+      memberName: 'STANLEY MOORE',
+      memberDesignation: 'Cook County Commissioner, 4th District',
       memberSocial: {
         linkedin: '/',
         twitter: '/',
@@ -81,14 +81,50 @@ export default function TeamSlider() {
     },
     {
       memberImage: Speaker3,
-      memberName: 'Melon Bulgery',
-      memberDesignation: 'Product Designer',
+      memberName: 'RODNEY ELLIS',
+      memberDesignation: 'Harris County Commissioner, Precinct One',
       memberSocial: {
         linkedin: '/',
         twitter: '/',
         youtube: '/',
         facebook: '/',
       },
+    },
+    {
+      memberImage: Speaker11,
+      memberName: 'VICTORIA SIPPLING',
+      memberDesignation: 'Vice President, Wendover Housing Partners',
+      memberSocial: {
+        linkedin: '/',
+        twitter: '/',
+        youtube: '/',
+        facebook: '/',
+      },
+      
+    },
+    {
+      memberImage: Speaker4,
+      memberName: 'ERIC KNOWLES',
+      memberDesignation: 'CEO, Miami-Dade Chamber of Commerce',
+      memberSocial: {
+        linkedin: '/',
+        twitter: '/',
+        youtube: '/',
+        facebook: '/',
+      },
+      
+    },
+    {
+      memberImage: Speaker2,
+      memberName: 'MICHAEL HIGHTOWER',
+      memberDesignation: 'Managing Partner, The Collaborative Firm, LLC',
+      memberSocial: {
+        linkedin: '/',
+        twitter: '/',
+        youtube: '/',
+        facebook: '/',
+      },
+      
     },
   ];
   /** Slider Settings **/

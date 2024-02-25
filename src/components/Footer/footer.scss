@@ -1,6 +1,8 @@
 @import "../../scss/default/color_variable";
 .cs-fooer_main {
   padding: 95px 0 35px;
+  background-color: $light-gray;
+  color: $gray
 }
 
 .cs-footer_item {
@@ -12,6 +14,7 @@
 
 .cs-widget_title {
   font-size: 18px;
+  color: $gray;
   margin-bottom: 35px;
 }
 
@@ -63,14 +66,14 @@
     height: 36px;
     width: 36px;
     border-radius: 50%;
-    border: 2px solid $white;
+    border: 2px solid $gray;
     margin: 7px;
-    color: $white;
+    color: $gray;
     &:hover {
-      border-color: $accent;
+      border-color: $gray;
       transform: scale(1.08);
       svg {
-        fill: $accent;
+        fill: $gray;
       }
     }
   }

@@ -10,17 +10,23 @@ $border: #4D4D4D;
 $gray: #181818;
 $accent: #FF4A17;
 
+$light-gray: #f4f2ee;
+
 
 
 
 
 .images-box {
-	display: inline-block;
+	display: flex;
 	position: relative;
+    justify-content: center;
 }
 
 .images-box-item {
-	display: inline-block;
+	display: flex;
+ 
+	position: relative;
+    justify-content: center;
 }
 
 .images-box-item img {
@@ -37,33 +43,94 @@ $accent: #FF4A17;
 	border-right: 20px solid #ffffff;
 }
 
-@media (min-width: 768px) {
-	.images-box {
-		text-align: right;
-	}
-	.images-box-item-left {
-		position: absolute;
-		left: -90px;
-		right: auto;
-		bottom: -30px;
-		border-width: 30px;
-	}
+
+
+
+
+
+
+
+/* -------------------------------------------
+
+timer
+
+------------------------------------------- */
+
+.mil-timer-text {
+    text-align: center;
+
+    @media screen and (max-width: 1200px) {
+        text-align: center;
+    }
+
+    @media screen and (max-width: 500px) {
+        text-align: center;
+    }
 }
 
-@media (min-width: 992px) {
-	.images-box {
-		padding-left: 15px;
-	}
-	.images-box-item-left {
-		left: -20px;
-	}
+.mil-timer {
+    display: flex;
+
+    justify-content: center;
+
+    & .mil-timer-item {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-right: 40px;
+
+        &:after {
+            content: ":";
+            font-size: 22px;
+            color: $light-gray;
+            position: absolute;
+            right: -25px;
+            top: 25px;
+        }
+
+        &:last-child {
+            margin-right: 0;
+
+            &:after {
+                display: none;
+            }
+        }
+
+        & .mil-timer-number {
+            color: $light-gray;
+            display: block;
+            width: 80px;
+            height: 80px;
+            border: solid 1px $white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+    }
+
+    @media screen and (max-width: 1200px) {
+        justify-content: center;
+    }
+
+    @media screen and (max-width: 500px) {
+        flex-direction: row;
+        justify-content: center;
+
+
+        & .mil-timer-item {
+            display: flex;
+            
+            margin-bottom: 30px;
+
+            &:after {
+                display: none;
+            }
+        }
+    }
 }
 
-@media (min-width: 1200px) {
-	.images-box {
-		padding-left: 0;
-	}
-	.images-box-item-left {
-		left: -120px;
-	}
-}
