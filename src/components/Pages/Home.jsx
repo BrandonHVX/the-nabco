@@ -76,11 +76,11 @@ export default function Home({
     <>
       {/* Start Hero Section */}
       <Hero
-        title="ADVOCACY ON BEHALF OF AFRICAN-AMERICAN
+        title="ADVOCACY ON BEHALF OF AFRICAN-AMERICAN 
         ELECTED AND APPOINTED COUNTY OFFICIALS"
         subtitle="The founding members of NABCO believed it was imperative for African-Americans to have a specific and definable voice at the table where decisions were being made that would ultimately impact their constituents and underserved populations."
         btnText="Get a Quote"
-        btnLink="/contact"
+     
         scrollDownId="#service"
         socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
@@ -89,12 +89,12 @@ export default function Home({
       {/* End Hero Section */}
 
       {/* Start FunFact Section */}
-
+<Div id='service'/>
       {/* End FunFact Section */}
-      <Spacing lg="150" md="80" />
-      <Div className="container">
+      <Spacing  lg="150" md="80" />
+      <Div lassName="container">
         <Div className="row justify-content-center">
-          <Div className="col-xl-5 col-lg-7">
+          <Div  className="col-xl-5 col-lg-7">
             <SectionHeading
               title="National Association of Black County Officials"
               subtitle="About Us"

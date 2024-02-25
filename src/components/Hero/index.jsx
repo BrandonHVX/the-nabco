@@ -20,15 +20,13 @@ export default function Hero({
       className="cs-hero cs-style1 cs-bg cs-fixed_bg cs-shape_wrap_1"
       style={{ backgroundImage: `url(${bgImageUrl})` }}
     >
-      <Div className="cs-shape_1" />
-      <Div className="cs-shape_1" />
-      <Div className="cs-shape_1" />
+
       <Div className="container">
         <Div className="cs-hero_text">
           <h1 className="cs-hero_title">{parse(title)}</h1>
           <Div className="cs-hero_info">
             <Div>
-              <Button btnLink={btnLink} btnText={btnText} />
+              <a className='cs-text_btn' href={scrollDownId}  >Learn More </a>
             </Div>
             <Div>
               <Div className="cs-hero_subtitle">{subtitle}</Div>
@@ -37,9 +35,7 @@ export default function Hero({
         </Div>
       </Div>
       <VerticalLinks data={heroSocialLinks} title={socialLinksHeading} />
-      <a href={scrollDownId} className="cs-down_btn">
-        .
-      </a>
+  
     </Div>
   );
 }

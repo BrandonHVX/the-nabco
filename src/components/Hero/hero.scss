@@ -75,7 +75,7 @@
   height: calc(100vh + 180px);
   min-height: 1000px;
   .cs-hero_title {
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 700;
     margin-bottom: 60px;
     line-height: 1.25em;
@@ -229,7 +229,7 @@
   position: relative;
   overflow: hidden;
   .cs-hero_title {
-    font-size: 80px;
+    font-size: 40px;
     font-weight: 700;
     margin-bottom: 60px;
     line-height: 1.6em;
@@ -298,7 +298,7 @@
   .cs-hero_title {
     margin: 0;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 50px;
     position: relative;
     text-decoration: underline;
     text-decoration-color: $accent;
@@ -321,7 +321,7 @@
   .cs-hero_title {
     margin: 0 0 60px 0;
     font-weight: 700;
-    font-size: 100px;
+    font-size: 80px;
     position: relative;
   }
   .cs-hero_text {
@@ -427,7 +427,7 @@
   }
   .cs-hero.cs-style3 {
     .cs-hero_title {
-      font-size: 80px;
+      font-size: 50px;
       line-height: 1.4em;
     }
   }
@@ -436,7 +436,7 @@
   }
   .cs-hero.cs-style1.cs-type2 {
     .cs-hero_title {
-      font-size: 80px;
+      font-size: 40px;
     }
   }
 }
@@ -448,12 +448,12 @@
     padding-top: 200px;
     min-height: 880px;
     .cs-hero_title {
-      font-size: 80px;
+      font-size: 50px;
     }
   }
   .cs-hero.cs-style3 {
     .cs-hero_title {
-      font-size: 80px;
+      font-size: 50px;
       line-height: 1.3em;
       margin-bottom: 40px;
     }
@@ -461,7 +461,7 @@
   .cs-hero.cs-style2 {
     height: 768px;
     .cs-hero_tab_item h2 {
-      font-size: 80px;
+      font-size: 50px;
     }
     .cs-hero_tab_item {
       &:not(:last-child) {
@@ -471,20 +471,20 @@
   }
   .cs-hero.cs-style1.cs-type2 {
     .cs-hero_title {
-      font-size: 80px;
+      font-size: 50px;
     }
   }
   .cs-hero.cs-style1.cs-type2 {
     height: 600px;
     min-height: 500px;
     .cs-hero_title {
-      font-size: 70px;
+      font-size: 40px;
     }
   }
   .cs-hero.cs-style4,
   .cs-hero.cs-style5 {
     .cs-hero_title {
-      font-size: 80px;
+      font-size: 40px;
     }
   }
 }
@@ -497,7 +497,7 @@
   .cs-hero.cs-style1 {
     min-height: 850px;
     .cs-hero_title {
-      font-size: 60px;
+      font-size: 40px;
     }
     .cs-hero_subtitle {
       font-size: 16px;
@@ -558,7 +558,7 @@
   .cs-hero.cs-style4 {
     padding: 80px 15px;
     .cs-hero_title {
-      font-size: 60px;
+      font-size: 40px;
       span::before {
         height: 5px;
         bottom: 5px;
