@@ -25,7 +25,7 @@ export default function ContactPage() {
         <Div className="row">
           <Div className="col-lg-6">
             <SectionHeading
-              title="Do you have a project <br/>in your mind?"
+              title="Have a Question? <br/>Get In Touch With Us!"
               subtitle="Getting Touch"
             />
             <Spacing lg="55" md="30" />
