@@ -6,7 +6,7 @@ import PageHeading from '../PageHeading';
 import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
 import ContactInfoWidget from '../Widget/ContactInfoWidget';
-import NabcoBG from "../../scss/images/nabco-bg.jpg"
+import NabcoBG from "../../scss/images/nabco-bg.jpg";
 
 export default function ContactPage() {
   pageTitle('Contact Us');
@@ -30,7 +30,7 @@ export default function ContactPage() {
         <Div className="row">
           <Div className="col-lg-6">
             <SectionHeading
-              title="Have a Question? <br/>Get In Touch With Us!"
+              title="Have a Question? <br/> Get In Touch With Us!"
               subtitle="Getting Touch"
             />
             <Spacing lg="55" md="30" />
