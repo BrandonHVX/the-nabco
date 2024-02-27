@@ -29,6 +29,10 @@ export default function TestimonialSlider( title,
         <Spacing lg="130" md="80" />
         <Div className=" speakers-bg container text-center cs-light_gray_bg">
       
+
+
+
+
         <h4 class="h4-nabco-gray text-spacing-200  wow fadeScale text-gray" data-caption-animate="fadeInUp" data-caption-delay="100"
                 data-caption-duration="900">Who's Speaking</h4>
               <h2 class="h2-nabco-gray  wow fadeInUp " data-wow-delay=".8s" data-caption-animate="fadeInUp"
@@ -39,9 +43,9 @@ export default function TestimonialSlider( title,
 
 
         <p className='h4-nabco-gray'>More Speakers to be Anounced</p>
-
       </Div>
- 
+    
+
 
         <Spacing lg="130" md="80" />
       </Div>

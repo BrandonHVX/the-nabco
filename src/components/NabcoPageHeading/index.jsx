@@ -21,7 +21,6 @@ export default function PageHeading({ title, bgSrc, pageLinkText }) {
 
  
 
-                <Timer />
         
     
       </Div>

@@ -163,8 +163,14 @@ export default function Home({
                 data-caption-delay="300" data-caption-duration="900"> Leadership Summit & Retreat
                 </h4>
                 <img class="img-opacity" width="400" src={Sponsors} />
-                <Timer />
+                {/* <Timer />  */}
+                <Spacing lg="45" md="80" />
+
+                
+                 <Button btnLink='/nabco2024' btnText="HOTEL BOOKING & EVENT TICKETS"/>
       </Div>
+    
+
       <TestimonialSliderDark />
 
       <MovingText text=" NABCO 2024 | MIAMI-DADE COUNTY | " />
