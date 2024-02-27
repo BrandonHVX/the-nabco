@@ -80,7 +80,7 @@ export default function AboutPage() {
                   <div class="wrap">
               
                     <div class="text-wrap vcenter">
-                      <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">Intercontinental Miami <br/> Hotel Booking </h2>
+                      <h2 class="mbr-fonts-style mbr-bold mbr-section-title3 display-5">InterContinental Miami <br/> Hotel Booking </h2>
                     </div>
                   </div>
                   </a>
