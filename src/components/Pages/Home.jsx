@@ -80,7 +80,6 @@ export default function Home({
         ELECTED AND APPOINTED COUNTY OFFICIALS"
         subtitle="The founding members of NABCO believed it was imperative for African-Americans to have a specific and definable voice at the table where decisions were being made that would ultimately impact their constituents and underserved populations."
         btnText="Get a Quote"
-     
         scrollDownId="#service"
         socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
@@ -92,18 +91,19 @@ export default function Home({
 <Div id='service'/>
       {/* End FunFact Section */}
       <Spacing  lg="150" md="80" />
-      <Div lassName="container ">
-        <Div className="row justify-content-center p-5">
-          <Div  className="col-xl-5 col-lg-7 pb-3">
+
+      <Div className="container">
+        <Div className="row">
+          <Div className="col-lg-6">
+            <Spacing lg="55" md="30" />
             <SectionHeading
               title="National Association of Black County Officials"
               subtitle="About Us"
               btnLink='/about'
-              btnText="Read More"
-            >
-
+              btnText="Read More">
               <Spacing lg="30" md="20" />
               <Div className="cs-separator cs-accent_bg"></Div>
+              <Spacing lg="30" md="20" />
               <p className="cs-m0 text-black ">
               Since its founding in 1975, the National Association of Black County Officials NABCO has provided a forum
               for networking, information and resource sharing, and issue advocacy on behalf of African-American elected
@@ -112,9 +112,11 @@ export default function Home({
               communities and urban centers
               </p>
             </SectionHeading>
+            <Spacing lg="0" md="50" />
           </Div>
-          <Div className="col-lg-5 offset-xl-2">
-          <div class="images-box">
+          <Div className="col-lg-6">
+            <Spacing lg="55" md="30" />
+            <div class="images-box">
               <div class="images-box-item images-box-item-right">
                 <div class="wow fadeScale"><img src={NabcoAbout1} alt="" width="470" height="590" />
                 </div>
@@ -124,11 +126,10 @@ export default function Home({
                 </div>
               </div>
             </div>
-           
+            <Spacing lg="0" md="50" />
           </Div>
-        </Div>
-      </Div>
-  
+          </Div>
+          </Div>
       {/* Start Portfolio Section */}
       <Spacing lg="100" md="50" />
 

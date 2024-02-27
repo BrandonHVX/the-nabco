@@ -30,6 +30,7 @@ export default function LogoList() {
   ]
   return (
     <Div className="cs-partner_logo_wrap">
+      
       {partnerLogos.map((partnerLogo, index)=><div className="cs-partner_logo" key={index}><img src={partnerLogo.src} alt={partnerLogo.alt} /></div>)}
     </Div>
   )

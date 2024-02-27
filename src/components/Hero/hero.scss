@@ -72,7 +72,7 @@
 .cs-hero.cs-style1 {
   position: relative;
   padding: 250px 0 170px;
-  height: calc(100vh + 180px);
+ 
   background-image: url('../../scss/images/nabco-bg.jpg');
 
 background-position: top right;
@@ -599,14 +599,14 @@ background-position: top right;
 
 @media screen and (max-width: 991px) {
   .cs-hero.cs-style1 {
-    padding-top: 60px;
+    padding-top: 90px;
     padding-bottom: 260px;
     display: flex;
 background-image: url('../../scss/images/nabco-bg.jpg');
-background-size: cover;
+
 background-position: top right;
 align-items: center;
-    min-height: 680px;
+  
 
     .cs-hero_info {
       flex-direction: column-reverse;
