@@ -75,7 +75,8 @@ export default function Header({ variant }) {
                       </NavLink>
                
                     </li>
-            
+              
+                
                
                   </ul>
       
@@ -117,43 +118,15 @@ export default function Header({ variant }) {
         <Div className="cs-side_header_in">
           <Div className="cs-side_header_shape" />
           <Link    onClick={() => setSideHeaderToggle(!sideHeaderToggle)} className="cs-site_branding" to="/">
-            <img src={Logo} alt="Logo" />
+            <img src="/images/footer_logo.svg" alt="Logo" />
           </Link>
           
           <Div className="cs-side_header_box">
-
-
-            <ul>
-              <li>
-                <Link onClick={() => setSideHeaderToggle(!sideHeaderToggle)} className="cs-site_branding" to="about">
-                  <h2 className="cs-side_header_heading">
-               Home
-                  </h2>
-                </Link>
-              </li>
-              <li>
-                <Link onClick={() => setSideHeaderToggle(!sideHeaderToggle)} className="cs-site_branding" to="about">
-                  <h2 className="cs-side_header_heading">
-                    About
-                  </h2>
-                </Link>
-              </li>
-              <li>
-                <Link onClick={() => setSideHeaderToggle(!sideHeaderToggle)} className="cs-site_branding" to="nabco2024">
-                  <h2 className="cs-side_header_heading">
-                  Nabco 2024
-                  </h2>
-                </Link>
-              </li>
-              <li>
-                <Link onClick={() => setSideHeaderToggle(!sideHeaderToggle)} className="cs-site_branding" to="about">
-                  <h2 className="cs-side_header_heading">
-                 Contact
-                  </h2>
-                </Link>
-              </li>
-            </ul>
-          
+          <Link    onClick={() => setSideHeaderToggle(!sideHeaderToggle)} className="cs-site_branding" to="/">
+          <h2 className="cs-side_header_heading">
+              Do you have a project in your <br /> mind? Keep connect us.
+            </h2>
+          </Link>
         
           </Div>
           <Div className="cs-side_header_box">
