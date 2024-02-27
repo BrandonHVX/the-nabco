@@ -39,11 +39,11 @@ export default function Home({
   // Hero Social Links
   const heroSocialLinks = [
     {
-      name: 'Behance',
+      name: '',
       links: '/',
     },
     {
-      name: 'Twitter',
+      name: '',
       links: '/',
     },
   ];
@@ -109,7 +109,7 @@ export default function Home({
               for networking, information and resource sharing, and issue advocacy on behalf of African-American elected
               and appointed county officials. NABCO members serve in major policy roles throughout America’s 3,069
               counties, boroughs, and parishes, and represent some of the most diverse populations in America’s rural
-              communities and urban centers
+              communities and urban centers.
               </p>
             </SectionHeading>
             <Spacing lg="0" md="50" />

@@ -302,7 +302,7 @@
 .cs-site_branding {
   display: inline-block;
   img {
-    max-height: 45px;
+    max-width: 180px;
   }
 }
 
@@ -740,7 +740,7 @@
     margin-right: 0;
   }
   .cs-site_branding img {
-    max-height: 32px;
+    max-height: 80px;
   }
   .cs-site_header.cs-style1 .cs-btn {
     span {
@@ -755,4 +755,17 @@
 }
 
 @media screen and (max-width: 450px) {
+}
+
+
+
+
+.mobile-menu {
+
+list-style: none;
+
+&:hover h1 {
+  color: aqua;
+}
+
 }

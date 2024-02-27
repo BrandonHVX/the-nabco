@@ -118,27 +118,43 @@ export default function Header({ variant }) {
         <Div className="cs-side_header_in">
           <Div className="cs-side_header_shape" />
           <Link    onClick={() => setSideHeaderToggle(!sideHeaderToggle)} className="cs-site_branding" to="/">
-            <img src="/images/footer_logo.svg" alt="Logo" />
+            <img src={Logo} alt="Logo" />
           </Link>
           
           <Div className="cs-side_header_box">
-          <Link    onClick={() => setSideHeaderToggle(!sideHeaderToggle)} className="cs-site_branding" to="/">
-          <h2 className="cs-side_header_heading">
-              Do you have a project in your <br /> mind? Keep connect us.
-            </h2>
-          </Link>
+            <ul className='mobile-menu'>
+              <li> <Link  onClick={() => setSideHeaderToggle(!sideHeaderToggle)} className="cs-site_branding" to="/">
+                <h2 className="cs-side_header_heading">
+                  Home
+                  </h2>
+              </Link>
+              </li>
+              <li> <Link onClick={() => setSideHeaderToggle(!sideHeaderToggle)} className="cs-site_branding" to="about">
+                <h2 className="cs-side_header_heading">
+                  About
+                  </h2>
+              </Link>
+              </li>
+              <li> <Link onClick={() => setSideHeaderToggle(!sideHeaderToggle)} className="cs-site_branding" to="nabco2024">
+                <h2 className="cs-side_header_heading">
+                  Nabco 2024
+                  </h2>
+              </Link>
+              </li>
+              <li> <Link onClick={() => setSideHeaderToggle(!sideHeaderToggle)} className="cs-site_branding" to="contact">
+                <h2 className="cs-side_header_heading">
+                  Contact
+                  </h2>
+              </Link>
+              </li>
+            </ul>
+         
         
           </Div>
           <Div className="cs-side_header_box">
             <ContactInfoWidget title="Contact Us" withIcon />
           </Div>
-          <Div className="cs-side_header_box">
-            <Newsletter
-              title="Subscribe"
-              subtitle="At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit."
-              placeholder="example@gmail.com"
-            />
-          </Div>
+       
           <Div className="cs-side_header_box">
             <SocialWidget />
           </Div>
