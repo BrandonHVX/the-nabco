@@ -188,7 +188,7 @@ export default function TeamSlider() {
   };
 
   return (
-    <Div {...settings} className="cs-gap-24 cs-arrow_style2 ">
+    <Div {...settings} className="cs-gap-24 cs-arrow_style2  ">
       {teamData.map((item, index) => (
         <Div >
           <TeamDark

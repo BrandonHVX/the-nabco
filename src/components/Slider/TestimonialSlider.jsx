@@ -26,7 +26,7 @@ export default function TestimonialSlider( title,
   return (
     <>
       <Div className=" cs-shape_wrap_3 cs-parallax ">
-        <Spacing lg="130" md="80" />
+   
         <Div className="container text-center">
       
 

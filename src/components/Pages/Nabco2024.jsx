@@ -15,6 +15,8 @@ import NabcoHotel1 from "../../scss/images/home-2-01-470x590.jpg"
 import NabcoHotel2  from "../../scss/images/home-2-02-270x257.jpg"
 import Button from '../Button';
 import Sponsors from '../../scss/images/sponsors-black.png'
+import LogoList from '../LogoList';
+
 
 
 export default function AboutPage() {
@@ -53,38 +55,24 @@ export default function AboutPage() {
 
       {/* Start About Section */}
      
-     <Div className="cs-light_gray_bg "> <TestimonialSliderDark /></Div>
-       
-     
-
-
-   
-     
-      <Spacing lg="75" md="55" />
-      {/* End About Section */}
-
-      <Div className="container">
+     <Div className="cs-light_gray_bg "> 
+     <Spacing lg="75" md="55" />
+     <Div className="container">
         <Div className="row justify-content-center">
-          <Div className="col-xl-5 col-lg-7">
+          <Div className="col-xl-5 col-lg-7 mb-5">
         <Div className="container text-center">
         <h1 class="h1-nabco wow fadeScale text-black" data-caption-animate="fadeInUp" data-caption-delay="100"
                 data-caption-duration="900">NABCO 2024</h1>
               <h4 class="h4-nabco text-spacing-200 text-black wow fadeInUp " data-wow-delay=".8s" data-caption-animate="fadeInUp"
                 data-caption-delay="300" data-caption-duration="900"> Leadership Summit & Retreat
                 </h4>
-                <img class="img-opacity" width="400" src={Sponsors} />
-
- 
-
-            
-        
-    
+    <br />
       </Div>
      <p className="cs-m0 text-black mb-5">
            
               Headquartered in Washington, DC, NABCO has emerged as one of the most influential caucuses in the nation’s capital advocating before federal policymakers on behalf of African-American officials. NABCO hosts meetings, webinars, discussions, networking events, and scholarship fundraisers.
               </p>
-              <Button className="mt-5"  btnLink='https://book.passkey.com/gt/219688193?gtid=76fd8ac91e19f2e8f1958d298994d193' btnText="Book Now" />
+              <Button className="mb-5"  btnLink='https://book.passkey.com/gt/219688193?gtid=76fd8ac91e19f2e8f1958d298994d193' btnText="Book Now" />
 
           </Div>
           <Div className="col-lg-5 offset-xl-2">
@@ -103,18 +91,30 @@ export default function AboutPage() {
         </Div>
       
       </Div>
-      
 
 
+     <TestimonialSliderDark />
+     
+  
+     </Div>
+       
+     
 
 
-      {/* Start Team Section */}
-      <Spacing lg="145" md="80" />
+     <Div className="container">
 
-      {/* End Team Section */}
+     <h4 class="h4-nabco-gray text-spacing-200 text-center wow fadeScale text-gray pt-5" data-caption-animate="fadeInUp" data-caption-delay="100"
+                data-caption-duration="900"> </h4>
+              <h2 class="h2-nabco-gray text-center  wow fadeInUp " data-wow-delay=".8s" data-caption-animate="fadeInUp"
+                data-caption-delay="300" data-caption-duration="900"> Our Sponsors
+                </h2>
+                <Spacing lg="50" md="80" />
 
-      {/* Start CTA Section */}
+        <LogoList />
+      </Div>
       <Spacing lg="150" md="80" />
+     
+   
 
       {/* End CTA Section */}
     </>

@@ -5,9 +5,10 @@
 .cs-funfact_wrap {
   display: flex;
   align-items: center;
-  background: linear-gradient(267.18deg, #161616 0%, #080808 100%);
+justify-content: center;
+  background: $light-gray;
   border-radius: 15px;
-  padding: 60px 80px;
+
   position: relative;
   z-index: 1;
   .cs-funfact_shape {
@@ -22,6 +23,8 @@
   }
   .cs-funfact_left {
     flex: none;
+    display: flex;
+    justify-content: center;
     width: 40%;
     position: relative;
     z-index: 2;

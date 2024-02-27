@@ -11,7 +11,7 @@ import LogoList from '../LogoList';
 import MovingText from '../MovingText';
 import PortfolioSlider from '../Slider/PortfolioSlider';
 import PostSlider from '../Slider/PostSlider';
-import TestimonialSlider from '../Slider/TestimonialSlider';
+import TestimonialSliderDark from '../Slider/TestimonialSliderDark';
 import TeamSlider from '../Slider/TeamSlider';
 import VideoModal from '../VideoModal';
 import TimelineSlider from '../Slider/TimelineSlider';
@@ -22,7 +22,7 @@ import NabcoAbout2 from "../../scss/images/home-1-02-270x257.jpg"
 import Timer from "../Widget/Timer";
 import NabcoHotel1 from "../../scss/images/home-2-01-470x590.jpg"
 import NabcoHotel2  from "../../scss/images/home-2-02-270x257.jpg"
-import Sponsors from '../../scss/images/sponsors-black.png'
+import Sponsors from '../../scss/images/sponsors-white.png'
 
 export default function Home({
   title,
@@ -92,9 +92,9 @@ export default function Home({
 <Div id='service'/>
       {/* End FunFact Section */}
       <Spacing  lg="150" md="80" />
-      <Div lassName="container">
-        <Div className="row justify-content-center">
-          <Div  className="col-xl-5 col-lg-7">
+      <Div lassName="container ">
+        <Div className="row justify-content-center p-5">
+          <Div  className="col-xl-5 col-lg-7 pb-3">
             <SectionHeading
               title="National Association of Black County Officials"
               subtitle="About Us"
@@ -104,17 +104,13 @@ export default function Home({
 
               <Spacing lg="30" md="20" />
               <Div className="cs-separator cs-accent_bg"></Div>
-
-              <p className="cs-m0 text-black pt-4">
-           
-            Since its founding in 1975, the National Association of Black County Officials NABCO has provided a forum
+              <p className="cs-m0 text-black ">
+              Since its founding in 1975, the National Association of Black County Officials NABCO has provided a forum
               for networking, information and resource sharing, and issue advocacy on behalf of African-American elected
               and appointed county officials. NABCO members serve in major policy roles throughout America’s 3,069
               counties, boroughs, and parishes, and represent some of the most diverse populations in America’s rural
               communities and urban centers
               </p>
-
-           
             </SectionHeading>
           </Div>
           <Div className="col-lg-5 offset-xl-2">
@@ -135,17 +131,7 @@ export default function Home({
   
       {/* Start Portfolio Section */}
       <Spacing lg="100" md="50" />
-      <Div>
-        <Div className="container">
-          <SectionHeading
-            title="Portfolio to explore"
-            subtitle="Latest Projects"
-            variant="cs-style1 text-center"
-          />
-          <Spacing lg="90" md="45" />
-        </Div>
-        <PortfolioSlider />
-      </Div>
+
       {/* End Portfolio Section */}
       {/* Start Service Section */}
       <Spacing lg="170" md="80" />
@@ -159,92 +145,34 @@ export default function Home({
         />
       </div>
    
-
-  
-
       {/* Start Team Section */}
       <Spacing lg="145" md="80" />
-      <Div className="container">
-      
-
-
-      
-        <Spacing lg="85" md="45" />
-   
-      
-      </Div>
-      <Spacing lg="150" md="80" />
+  
       {/* End Team Section */}
 
       {/* Start Testimonial Section */}
-      <Div className="cs-gradient_bg_1">
-      <Div className="container text-center mt-5">
+      <Div className="cs-gradient_bg_1 pt-5">
+      <MovingText text=" NABCO 2024 | MIAMI-DADE COUNTY | " />
+
+      <Div className="container text-center ">
+
         <h1 class="h1-nabco-title wow fadeScale " data-caption-animate="fadeInUp" data-caption-delay="100"
                 data-caption-duration="900">NABCO 2024</h1>
-              <h4 class="h4-nabco text-spacing-200 text-black wow fadeInUp " data-wow-delay=".8s" data-caption-animate="fadeInUp"
+              <h4 class="h4-nabco text-spacing-200 wow fadeInUp " data-wow-delay=".8s" data-caption-animate="fadeInUp"
                 data-caption-delay="300" data-caption-duration="900"> Leadership Summit & Retreat
                 </h4>
                 <img class="img-opacity" width="400" src={Sponsors} />
-
- 
-
                 <Timer />
-        
-    
       </Div>
-      <TestimonialSlider />
+      <TestimonialSliderDark />
+
+      <MovingText text=" NABCO 2024 | MIAMI-DADE COUNTY | " />
+      <Spacing lg="105" md="70" />
       </Div>
       {/* End Testimonial Section */}
 
       {/* Start Blog Section */}
-      <Spacing lg="150" md="80" />
-      <Div className="cs-shape_wrap_4">
-        <Div className="cs-shape_4"></Div>
-        <Div className="cs-shape_4"></Div>
-        <Div className="container">
-          <Div className="row">
-            <Div className="col-xl-4">
-              <SectionHeading
-                title="Explore recent publication"
-                subtitle="Our Blog"
-                btnText="View More Blog"
-                btnLink="/blog"
-              />
-              <Spacing lg="90" md="45" />
-            </Div>
-            <Div className="col-xl-7 offset-xl-1">
-              <Div className="cs-half_of_full_width">
-                <PostSlider />
-              </Div>
-            </Div>
-          </Div>
-        </Div>
-      </Div>
-      {/* End Blog Section */}
-
-      {/* Start MovingText Section */}
-      <Spacing lg="125" md="70" />
-      <MovingText text="Our reputed world wide partners" />
-      <Spacing lg="105" md="70" />
-      {/* End MovingText Section */}
-
-      {/* Start LogoList Section */}
-      <Div className="container">
-        <LogoList />
-      </Div>
-      <Spacing lg="150" md="80" />
-      {/* End LogoList Section */}
-
-      {/* Start CTA Section */}
-      <Div className="container">
-        <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
-          btnText="Apply For Meeting"
-          btnLink="/contact"
-          bgSrc="/images/cta_bg.jpeg"
-        />
-      </Div>
-      {/* End CTA Section */}
+   
     </>
   );
 }

@@ -6,6 +6,7 @@ import PageHeading from '../PageHeading';
 import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
 import ContactInfoWidget from '../Widget/ContactInfoWidget';
+import NabcoBG from "../../scss/images/nabco-bg.jpg"
 
 export default function ContactPage() {
   pageTitle('Contact Us');
@@ -16,7 +17,7 @@ export default function ContactPage() {
     <>
       <PageHeading
         title="Contact Us"
-        bgSrc="/images/contact_hero_bg.jpeg"
+        bgSrc={NabcoBG}
         pageLinkText="Contact"
       />
       <Spacing lg="150" md="80" />
@@ -31,30 +32,30 @@ export default function ContactPage() {
             <ContactInfoWidget withIcon />
             <Spacing lg="0" md="50" />
           </Div>
-          <Div className="col-lg-6">
+          <Div className="col-lg-6 text-black">
             <form action="#" className="row">
               <Div className="col-sm-6">
-                <label className="cs-primary_color">Full Name*</label>
+                <label className="cs-primary_color text-black">Full Name</label>
                 <input type="text" className="cs-form_field" />
                 <Spacing lg="20" md="20" />
               </Div>
               <Div className="col-sm-6">
-                <label className="cs-primary_color">Email*</label>
+                <label className="cs-primary_color text-black">Email</label>
                 <input type="text" className="cs-form_field" />
                 <Spacing lg="20" md="20" />
               </Div>
               <Div className="col-sm-6">
-                <label className="cs-primary_color">Project Type*</label>
+                <label className="cs-primary_color text-black">Project Type</label>
                 <input type="text" className="cs-form_field" />
                 <Spacing lg="20" md="20" />
               </Div>
               <Div className="col-sm-6">
-                <label className="cs-primary_color">Mobile*</label>
+                <label className="cs-primary_color text-black">Mobile</label>
                 <input type="text" className="cs-form_field" />
                 <Spacing lg="20" md="20" />
               </Div>
               <Div className="col-sm-12">
-                <label className="cs-primary_color">Mobile*</label>
+                <label className="cs-primary_color text-black">Mobile</label>
                 <textarea
                   cols="30"
                   rows="7"

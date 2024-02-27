@@ -45,17 +45,15 @@ export default function AboutPage() {
       {/* End Page Heading Section */}
 
       {/* Start About Section */}
-      <Spacing lg="150" md="80" />
+      <Spacing lg="50" md="80" />
+
       <Div className="container">
-       
-       
+             <img className='center-block' src={LogoBlack } width={500} />
+             <Spacing lg="50" md="80" />
           <SectionHeading
               title="Our Story"
-              subtitle="National Association of Black County Officials"
-        
-             
-            >
-
+              subtitle="National Association of Black County Officials">
+    
               <Spacing lg="30" md="20" />
               <Div className="cs-separator cs-accent_bg"></Div>
 
@@ -80,15 +78,6 @@ Headquartered in Washington, DC, NABCO has emerged as one of the most influentia
 
 
 
-      {/* Start Team Section */}
-      <Spacing lg="145" md="80" />
-
-      {/* End Team Section */}
-
-      {/* Start CTA Section */}
-      <Spacing lg="150" md="80" />
-
-      {/* End CTA Section */}
     </>
   );
 }

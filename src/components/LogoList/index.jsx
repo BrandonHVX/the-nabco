@@ -1,29 +1,32 @@
 import React from 'react'
 import Div from '../Div'
 import './logolist.scss'
+import Sponsor1 from '../../scss/images/sponsor-01-117x70.png'
+import Sponsor3 from '../../scss/images/sponsor-03-119x33.png'
+
+import Sponsor4 from '../../scss/images/sponsor-05-117x70.png'
+import Sponsor6 from '../../scss/images/sponsor-06-119x33.png'
+
 
 export default function LogoList() {
   const partnerLogos = [
     {
-      src: '/images/partner_1.svg', 
+      src: Sponsor1, 
       alt:'Partner'
     },
     {
-      src: '/images/partner_2.svg', 
+      src: Sponsor3, 
       alt:'Partner'
     },
     {
-      src: '/images/partner_3.svg', 
+      src: Sponsor4, 
       alt:'Partner'
     },
     {
-      src: '/images/partner_4.svg', 
+      src: Sponsor6, 
       alt:'Partner'
     },
-    {
-      src: '/images/partner_5.svg', 
-      alt:'Partner'
-    }
+  
   ]
   return (
     <Div className="cs-partner_logo_wrap">

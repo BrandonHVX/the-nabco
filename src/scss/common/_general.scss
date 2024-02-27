@@ -130,6 +130,19 @@
 
 }
 
+.cs-m1 {
+  margin: 0;
+  font-size: 12px;
+  line-height: 30px;
+
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 hr {
   margin: 0;
   padding: 0;
@@ -191,6 +204,10 @@ hr {
   background-color: $light-gray;
 }
 
+.speakers-bg {
+  padding: 30px;
+  border-radius: 90px;
+}
 
 .cs-accent_bg_1,
 .cs-accent_bg_1_hover:hover {

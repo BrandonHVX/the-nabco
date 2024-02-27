@@ -25,13 +25,9 @@ export default function TestimonialSlider( title,
 
   return (
     <>
-      <Div className=" cs-shape_wrap_3 cs-parallax ">
+      <Div className=" cs-shape_wrap_3 cs-parallax  ">
         <Spacing lg="130" md="80" />
-        <Div className="container text-center">
-      
-
-
-
+        <Div className=" speakers-bg container text-center cs-light_gray_bg">
       
         <h4 class="h4-nabco-gray text-spacing-200  wow fadeScale text-gray" data-caption-animate="fadeInUp" data-caption-delay="100"
                 data-caption-duration="900">Who's Speaking</h4>

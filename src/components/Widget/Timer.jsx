@@ -19,7 +19,7 @@ export const Timer = () => {
   var timer;
 
   var compareDate = new Date();
-  compareDate.setDate(compareDate.getDate() + 99);
+  compareDate.setDate(compareDate.getDate() + 59);
 
   timer = setInterval(function () {
       timeBetweenDates(compareDate);

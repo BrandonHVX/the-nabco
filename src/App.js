@@ -6,7 +6,7 @@ import ContactPage from './components/Pages/ContactPage';
 import ErrorPage from './components/Pages/ErrorPage';
 import Home from './components/Pages/Home';
 import Nabco2024 from './components/Pages/Nabco2024';
-
+import Greetings from './components/Pages/Greetings';
 import PortfolioDetailsPage from './components/Pages/PortfolioDetailsPage';
 import ServiceDetailsPage from './components/Pages/ServiceDetailsPage';
 import ServicesPage from './components/Pages/ServicesPage';
@@ -35,8 +35,9 @@ function App() {
           />
        
           <Route path="about" element={<AboutPage />} />
-       
-    
+          <Route path="greetings" element={<Greetings />} />
+
+          <Route path="contact" element={<ContactPage />} />
         </Route>
  
       </Routes>
