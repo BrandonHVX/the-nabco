@@ -13,6 +13,11 @@ export default function ContactPage() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+
+
+
+  
   return (
     <>
       <PageHeading
@@ -32,45 +37,7 @@ export default function ContactPage() {
             <ContactInfoWidget withIcon />
             <Spacing lg="0" md="50" />
           </Div>
-          <Div className="col-lg-6 text-black">
-            <form action="#" className="row">
-              <Div className="col-sm-6">
-                <label className="cs-primary_color text-black">Full Name</label>
-                <input type="text" className="cs-form_field" />
-                <Spacing lg="20" md="20" />
-              </Div>
-              <Div className="col-sm-6">
-                <label className="cs-primary_color text-black">Email</label>
-                <input type="text" className="cs-form_field" />
-                <Spacing lg="20" md="20" />
-              </Div>
-              <Div className="col-sm-6">
-                <label className="cs-primary_color text-black">Project Type</label>
-                <input type="text" className="cs-form_field" />
-                <Spacing lg="20" md="20" />
-              </Div>
-              <Div className="col-sm-6">
-                <label className="cs-primary_color text-black">Mobile</label>
-                <input type="text" className="cs-form_field" />
-                <Spacing lg="20" md="20" />
-              </Div>
-              <Div className="col-sm-12">
-                <label className="cs-primary_color text-black">Mobile</label>
-                <textarea
-                  cols="30"
-                  rows="7"
-                  className="cs-form_field"
-                ></textarea>
-                <Spacing lg="25" md="25" />
-              </Div>
-              <Div className="col-sm-12">
-                <button className="cs-btn cs-style1">
-                  <span>Send Message</span>
-                  <Icon icon="bi:arrow-right" />
-                </button>
-              </Div>
-            </form>
-          </Div>
+
         </Div>
       </Div>
       <Spacing lg="150" md="80" />

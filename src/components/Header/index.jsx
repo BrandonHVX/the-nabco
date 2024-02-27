@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import SocialWidget from '../Widget/SocialWidget';
 import Newsletter from '../Widget/Newsletter';
 import './header.scss';
-import ContactInfoWidget from '../Widget/ContactInfoWidget';
+import ContactInfoWidget from '../Widget/ContactInfoWidgetLight';
 import Div from '../Div';
 import DropDown from './DropDown';
 import Logo from "../../scss/images/logo.png"
