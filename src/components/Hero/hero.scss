@@ -73,6 +73,9 @@
   position: relative;
   padding: 250px 0 170px;
   height: calc(100vh + 180px);
+  background-image: url('../../scss/images/nabco-bg.jpg');
+background-size: cover;
+background-position: top right;
   min-height: 1000px;
   .cs-hero_title {
     font-size: 60px;
@@ -599,8 +602,12 @@
     padding-top: 60px;
     padding-bottom: 260px;
     display: flex;
-    align-items: center;
+background-image: url('../../scss/images/nabco-bg.jpg');
+background-size: cover;
+background-position: top right;
+align-items: center;
     min-height: 680px;
+
     .cs-hero_info {
       flex-direction: column-reverse;
       align-items: flex-start;
