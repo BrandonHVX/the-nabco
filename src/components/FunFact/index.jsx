@@ -24,7 +24,7 @@ export default function FunFact({variant, title, subtitle, data}) {
        
         <SectionHeading
               title=" 'NABCO members stand at the forefront of policymaking' "
-              subtitle="GREETING FROM OUR PRESIDENT"
+              subtitle="GREETINGS FROM OUR PRESIDENT"
               btnLink='/greetings'
               btnText="Read More"
             >
