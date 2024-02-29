@@ -5,10 +5,14 @@ import FunFact from '../FunFact';
 import PageHeading from '../PageHeading';
 import Div from '../Div';
 import SectionHeading from '../SectionHeading';
-import TeamSlider from '../Slider/TeamSlider';
+import TeamSliderBoard from '../Slider/TeamSliderBoard';
 import Spacing from '../Spacing';
 import LogoBlack from "../../scss/images/logo-black.png"
 import NabcoBG from "../../scss/images/nabco-bg.jpg"
+
+
+
+
 
 export default function AboutPage() {
   pageTitle('About');
@@ -74,7 +78,19 @@ Headquartered in Washington, DC, NABCO has emerged as one of the most influentia
       <Spacing lg="75" md="55" />
       {/* End About Section */}
 
+      <Div className="container">
+      <SectionHeading
+              title=" 2024 NABCO Officials"
+              subtitle="Board Members">
+    
+              <Spacing lg="30" md="20" />
+              <Div className="cs-separator cs-accent_bg"></Div>
 
+            </SectionHeading>
+            </Div>
+            <Spacing lg="75" md="55" />
+
+<TeamSliderBoard />
 
 
 
