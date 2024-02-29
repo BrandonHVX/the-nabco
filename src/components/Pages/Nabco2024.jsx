@@ -77,8 +77,8 @@ export default function AboutPage() {
               To ensure your comfort and convenience during your stay, we encourage you to secure your accommodations at the InterContinental Miami as soon as possible.              </p>
 
             <p className="cs-m0 text-black mb-2">
-            In addition to booking your stay, don’t forget to register for event tickets to secure your spot at the Summit. 
-  </p>
+            In addition to booking your stay, don’t forget to register for event tickets to secure your spot at the summit. 
+           </p>
               {/* <Button className="mb-5" btnLink='https://book.passkey.com/gt/219688193?gtid=76fd8ac91e19f2e8f1958d298994d193' btnText="Book Now" /> */}
               <div class="row justify-content-center p-3">
 
