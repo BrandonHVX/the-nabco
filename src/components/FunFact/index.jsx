@@ -4,7 +4,6 @@ import './funfact.scss'
 import MGImage from "../../scss/images/about-01-562x588.png"
 import SectionHeading from '../SectionHeading'
 import Spacing from '../Spacing'
-import klm from "../../scss/images/klm-signature.png"
 
 
 
@@ -32,7 +31,7 @@ export default function FunFact({variant, title, subtitle, data}) {
               <Spacing lg="30" md="20" />
               <p className="cs-m0 text-black ">Kionne L. McGhee               
               </p>
-              <p className="cs-m1 text-black small-text ">President, National Association of Black County Official             
+              <p className="cs-m1 text-black small-text ">President, National Association of Black County Officials             
               </p>
               <Spacing lg="30" md="20" />
               <Div className="cs-separator cs-accent_bg"></Div>
