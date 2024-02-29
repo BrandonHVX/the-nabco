@@ -162,11 +162,15 @@ export default function Home({
               <h4 class="h4-nabco text-spacing-200 wow fadeInUp " data-wow-delay=".8s" data-caption-animate="fadeInUp"
                 data-caption-delay="300" data-caption-duration="900"> Leadership Summit & Retreat
                 </h4>
+                <Spacing lg="15" md="10" />
+                <h4 class="h4-nabco-date wow fadeInUp " data-wow-delay=".8s" data-caption-animate="fadeInUp"
+                data-caption-delay="300" data-caption-duration="900"> April 25th - 27th 2024 | Miami, FL
+                </h4>
                 <img class="img-opacity" width="400" src={Sponsors} />
                 {/* <Timer />  */}
                 <Spacing lg="45" md="80" />
 
-                
+
                  <Button btnLink='/nabco2024' btnText="HOTEL BOOKING & EVENT TICKETS"/>
       </Div>
     

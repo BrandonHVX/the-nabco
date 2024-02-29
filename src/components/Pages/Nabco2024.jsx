@@ -66,10 +66,13 @@ export default function AboutPage() {
                 <h4 class="h4-nabco text-spacing-200 text-black wow fadeInUp " data-wow-delay=".8s" data-caption-animate="fadeInUp"
                   data-caption-delay="300" data-caption-duration="900"> Leadership Summit & Retreat
                 </h4>
-                <br />
+                <Spacing lg="5" md="5" />
+                <h4 class="h4-nabco-date wow fadeInUp text-black " data-wow-delay=".8s" data-caption-animate="fadeInUp"
+                data-caption-delay="300" data-caption-duration="900"> April 25-27 2024 | Miami, FL
+                </h4>
               </Div>
+              <Spacing lg="15" md="15" />
               <p className="cs-m0 text-black mb-2">
-
                 Headquartered in Washington, DC, NABCO has emerged as one of the most influential caucuses in the nation’s capital advocating before federal policymakers on behalf of African-American officials. NABCO hosts meetings, webinars, discussions, networking events, and scholarship fundraisers.
               </p>
               {/* <Button className="mb-5" btnLink='https://book.passkey.com/gt/219688193?gtid=76fd8ac91e19f2e8f1958d298994d193' btnText="Book Now" /> */}
