@@ -72,9 +72,13 @@ export default function AboutPage() {
                 </h4>
               </Div>
               <Spacing lg="15" md="15" />
-              <p className="cs-m0 text-black mb-2">
-                Headquartered in Washington, DC, NABCO has emerged as one of the most influential caucuses in the nation’s capital advocating before federal policymakers on behalf of African-American officials. NABCO hosts meetings, webinars, discussions, networking events, and scholarship fundraisers.
-              </p>
+              <p className="cs-m0 text-black">
+              We invite you to participate in the NABCO Leadership Summit and Retreat, set to take place at the luxurious InterContinental Miami from April 25-27.
+              To ensure your comfort and convenience during your stay, we encourage you to secure your accommodations at the InterContinental Miami as soon as possible.              </p>
+
+            <p className="cs-m0 text-black mb-2">
+            In addition to booking your stay, don’t forget to register for event tickets to secure your spot at the Summit. 
+  </p>
               {/* <Button className="mb-5" btnLink='https://book.passkey.com/gt/219688193?gtid=76fd8ac91e19f2e8f1958d298994d193' btnText="Book Now" /> */}
               <div class="row justify-content-center p-3">
 
