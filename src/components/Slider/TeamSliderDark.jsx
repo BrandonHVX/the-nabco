@@ -26,7 +26,7 @@ export default function TeamSlider() {
   const teamData = [
     {
       memberImage: Speaker12,
-      memberName: 'CONGRESSWOMEN FREDERICA S. WILSON',
+      memberName: 'CONGRESSWOMAN FREDERICA S. WILSON',
       memberDesignation: 'US Congress, Florida District 24',
       memberSocial: {
         linkedin: '/',
