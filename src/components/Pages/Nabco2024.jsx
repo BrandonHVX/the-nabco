@@ -16,6 +16,7 @@ import NabcoHotel2 from "../../scss/images/home-2-02-270x257.jpg"
 import Button from '../Button';
 import Sponsors from '../../scss/images/sponsors-black.png'
 import LogoList from '../LogoList';
+import Schedule from './Schedule';
 
 
 
@@ -55,7 +56,7 @@ export default function AboutPage() {
 
       {/* Start About Section */}
 
-      <Div className="cs-light_gray_bg ">
+      <Div className=" ">
         <Spacing lg="75" md="55" />
         <Div className="container">
           <Div className="row justify-content-center">
@@ -131,9 +132,10 @@ export default function AboutPage() {
 
 
       </Div>
+      
+      <Schedule />
 
-
-
+    
 
       <Div className="container">
 
