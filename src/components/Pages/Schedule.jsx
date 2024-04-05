@@ -23,7 +23,7 @@ export default function Schedule({ data }) {
     <h4 class="h4-nabco-gray  text-center text-spacing-200  wow fadeScale text-gray" data-caption-animate="fadeInUp" data-caption-delay="100"
                 data-caption-duration="900">Who's Speaking</h4>
 <h2 class="h2-nabco-gray text-center  wow fadeInUp " data-wow-delay=".8s" data-caption-animate="fadeInUp"
-  data-caption-delay="300" data-caption-duration="900"> Schedule
+  data-caption-delay="300" data-caption-duration="900"> NABCO 2024 Schedule
 </h2>
 
 
