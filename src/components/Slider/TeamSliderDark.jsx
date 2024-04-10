@@ -92,7 +92,7 @@ export default function TeamSlider() {
     },
     {
       memberImage: Speaker11,
-      memberName: 'VICTORIA SIPPLING',
+      memberName: 'VICTORIA SIPPLIN',
       memberDesignation: 'Vice President, Wendover Housing Partners',
       memberSocial: {
         linkedin: '/',
