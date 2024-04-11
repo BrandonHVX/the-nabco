@@ -75,7 +75,7 @@ export default function Schedule({ data }) {
 
                                                                         </div>
                                                                         <div class="d-block text-truncate mb-1">
-                                                                            <a href="cateview.php" class="cartproname">8:00am-12:00pm</a>
+                                                                            <a href="cateview.php" class="cartproname">8:00pm-12:00am</a>
                                                                         </div>
 
 
@@ -143,7 +143,7 @@ export default function Schedule({ data }) {
 
                                                                         </div>
                                                                         <div class="d-block text-truncate mb-1">
-                                                                            <a href="cateview.php" class="cartproname">8:00am-12:00pm</a>
+                                                                            <a href="cateview.php" class="cartproname">8:30am-12:00pm</a>
                                                                         </div>
 
 
@@ -250,7 +250,7 @@ export default function Schedule({ data }) {
 
                                             </div>
                                             <div class="d-block text-truncate mb-1">
-                                                <a href="cateview.php" class="cartproname">8:00am-12:00pm</a>
+                                                <a href="cateview.php" class="cartproname">8:30am-12:00pm</a>
                                             </div>
 
 
