@@ -65,13 +65,13 @@ export default function Schedule({ data }) {
                                                                     </div>
                                                                     <div class="col-8 col-lg-9 col-xl-10">
                                                                         <div class="cartviewprice d-block">
-                                                                            <span class="amt">Caribbean Nights: Welcome to Miami Rooftop Party</span>
+                                                                            <span class="amt">Welcome to Miami Rooftop Party</span>
 
                                                                         </div>
                                                                         <div class="seller d-block">
-                                                                            <span>Hosted By: </span>
+                                                                            <span>Hosted By:</span>
                                                                             <br />
-                                                                            <span>Commissioner Kionne Mcghee, Mayor Daniella Levine Cava, Luther Campbell, Congresswoman Frederica Wilson, Chairman Oliver Gilbert III & David Whitaker</span>
+                                                                            <span>Commissioner Kionne McGhee, Mayor Daniella Levine Cava, Luther Campbell, Congresswoman Frederica Wilson, Chairman Oliver Gilbert III & David Whitaker</span>
 
                                                                         </div>
                                                                         <div class="d-block text-truncate mb-1">
