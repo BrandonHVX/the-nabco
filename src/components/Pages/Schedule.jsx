@@ -71,7 +71,7 @@ export default function Schedule({ data }) {
                                                                         <div class="seller d-block">
                                                                             <span>Hosted By: </span>
                                                                             <br />
-                                                                            <span>Congresswoman Frederica Wilson & Luther Campbell</span>
+                                                                            <span>hosted by Commissioner Kionne Mcghee, Mayor Daniella Levine Cava, Luther Campbell, Congresswoman Frederica Wilson, Chairman Oliver Gilbert III & David Whitaker</span>
 
                                                                         </div>
                                                                         <div class="d-block text-truncate mb-1">
