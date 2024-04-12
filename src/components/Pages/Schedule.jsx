@@ -178,11 +178,11 @@ export default function Schedule({ data }) {
                                                                     </div>
                                                                     <div class="col-8 col-lg-9 col-xl-10">
                                                                         <div class="cartviewprice d-block">
-                                                                            <span class="amt">Celebrating Miami’s Black Trailblazers & Gamechangers</span>
+                                                                            <span class="amt">Cocktails & Conversation</span>
 
                                                                         </div>
                                                                         <div class="seller d-block">
-                                                                            <span>Speacial Guest Speaker </span>
+                                                                            <span>Special Guest Speaker </span>
                                                                             <br />
                                                                             <span>District Attorney, Fani Willis</span>
 
