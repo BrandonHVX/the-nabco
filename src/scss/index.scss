@@ -18,6 +18,23 @@ $font-size: 15px;
 
 
 
+
+
+
+.schedule-title {
+
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
 article{
     background-color: #E0E0E0;
     padding: 10px;
@@ -79,8 +96,8 @@ figure img{
 
     color: rgb(0, 0, 0);
 
-
-   background-color: #04a3a053;
+color: #555555c9;
+   background-color: #04a3a027;
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     color: white;
@@ -150,9 +167,10 @@ button:focus:not(:focus-visible) {
 }
 .addcartimg{
     height: 100px;
+   
 }
 .cartproname{
-    font-size: 15px;
+    font-size: 12px;
     color: #212529;
     line-height: 1;
     display: inline;
@@ -272,3 +290,11 @@ button:focus:not(:focus-visible) {
 .nav-link .nav-link-purple-heart {
     background-color: #023998;
 }
+
+
+
+
+
+
+
+
